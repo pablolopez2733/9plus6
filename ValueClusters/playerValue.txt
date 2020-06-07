@@ -1,4 +1,3 @@
-,,
 Rk,Player,Guaranteed
 1,Stephen Curry\curryst01,$129019086
 2,Chris Paul\paulch01,$79865296
