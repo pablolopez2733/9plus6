@@ -1,5 +1,5 @@
 # 9plus6   
-<img src="https://secureservercdn.net/198.71.233.51/3nw.43d.myftpupload.com/wp-content/uploads/2020/04/Logo-negro-P%C3%A1gina.png" width="48px">   
+<img src="https://secureservercdn.net/198.71.233.51/3nw.43d.myftpupload.com/wp-content/uploads/2020/04/Logo-negro-P%C3%A1gina.png" width="96px">   
 
 Todos los códigos utilizados para mís artículos de [9plus6](https://9plus6.com/ "9plus6 Sitio Oficial")   
 ## Códigos   
@@ -13,5 +13,5 @@ Todos los códigos utilizados para mís artículos de [9plus6](https://9plus6.co
 * [Prediciendo la Premier League con regresión lineal]()
 
 ### Social
-* [Twitter](https://twitter.com/pablocuyisimo)![alt text] <img src="https://www.wan-ifra.org/sites/default/files/imagecache/field_media_image_image_body/field_media_image_file/Twitter_logo_blue.png" width="48px"> 
-* [Github](https://github.com/pablolopez2733)![alt text] <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="48px"> 
+* [Twitter](https://twitter.com/pablocuyisimo)<img src="https://www.wan-ifra.org/sites/default/files/imagecache/field_media_image_image_body/field_media_image_file/Twitter_logo_blue.png" width="30px"> 
+* [Github](https://github.com/pablolopez2733)<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="30px"> 
