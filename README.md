@@ -1,5 +1,5 @@
 # 9plus6   
-<img src="https://secureservercdn.net/198.71.233.51/3nw.43d.myftpupload.com/wp-content/uploads/2020/04/Logo-negro-P%C3%A1gina.png" width="10px">   
+<img src="https://secureservercdn.net/198.71.233.51/3nw.43d.myftpupload.com/wp-content/uploads/2020/04/Logo-negro-P%C3%A1gina.png" width="48px">   
 
 Todos los códigos utilizados para mís artículos de [9plus6](https://9plus6.com/ "9plus6 Sitio Oficial")   
 ## Códigos   
@@ -11,3 +11,7 @@ Todos los códigos utilizados para mís artículos de [9plus6](https://9plus6.co
 * [Los Sports Analytics: Una Nueva Esperanza](https://9plus6.com/los-sports-analytics-una-nueva-esperanza/)
 * [Phil Jackson y el triángulo de los 11 anillos](https://9plus6.com/phil-jackson-y-el-triangulo-de-los-11-anillos/)
 * [Prediciendo la Premier League con regresión lineal]()
+
+### Social
+* [Twitter](https://twitter.com/pablocuyisimo)![alt text] <img src="https://www.wan-ifra.org/sites/default/files/imagecache/field_media_image_image_body/field_media_image_file/Twitter_logo_blue.png" width="48px"> 
+* [Github](https://github.com/pablolopez2733)![alt text] <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="48px"> 
