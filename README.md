@@ -1,5 +1,4 @@
-# 9plus6 : 
-![alt text](https://secureservercdn.net/198.71.233.51/3nw.43d.myftpupload.com/wp-content/uploads/2020/04/Logo-negro-P%C3%A1gina.png "Logo Title Text 1")
+# 9plus6: ![alt text](https://secureservercdn.net/198.71.233.51/3nw.43d.myftpupload.com/wp-content/uploads/2020/04/Logo-negro-P%C3%A1gina.png =100x20 "9+6")
 Todos los códigos utilizados para mís artículos de [9plus6](https://9plus6.com/ "9plus6 Sitio Oficial")   
 ## Códigos   
 1.  [Phil Jackson y el triángulo de los 11 anillos](https://github.com/pablolopez2733/9plus6/tree/master/TriangleOffense)
