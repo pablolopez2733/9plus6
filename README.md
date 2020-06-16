@@ -1,5 +1,5 @@
-# 9plus6   
-<img src="https://secureservercdn.net/198.71.233.51/3nw.43d.myftpupload.com/wp-content/uploads/2020/04/Logo-negro-P%C3%A1gina.png" width="96px">   
+  
+<img src="https://secureservercdn.net/198.71.233.51/3nw.43d.myftpupload.com/wp-content/uploads/2020/04/Logo-negro-P%C3%A1gina.png" width="100px">   
 
 Todos los códigos utilizados para mís artículos de [9plus6](https://9plus6.com/ "9plus6 Sitio Oficial")   
 ## Códigos   
