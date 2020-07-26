@@ -159,4 +159,17 @@ export_formattable(tb,"table.png")
 penalesMundial <- read_csv("C:/Users/pablo/Desktop/GithubRepos/9plus6/AnalisisPenaltis/Data/penalesMundial.txt")
 won.first <- penalesMundial[1:30,]
 
-won.first 
+ganadores <- won.first %>%
+  select(year,host_country,stage,winner_took_first_penalty)
+
+
+names(ganadores)[1] <- "Año"
+names(ganadores)[2] <- "Sede"
+names(ganadores)[3] <- "Etapa"
+names(ganadores)[4] <- "Ganador_cobro_primero"
+
+prim_shoots <- formattable(ganadores)
+
+export_formattable(prim_shoots,"fstshoot.png")
+
+table(ganadores$winner_took_first_penalty)
