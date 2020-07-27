@@ -131,10 +131,6 @@ customGreen0 = "#DeF7E9"
 customGreen = "#71CA97"
 customRed = "#ff7f7f"
 
-tb <- formattable(por.pais,align =c("c","c","c","c"),
-            list(
-  'Equipo' = formatter("span", style = ~ style(color = "grey",font.weight = "bold")), 
-  'Eficiencia'= color_tile(customRed, customGreen)))
 
 
 #Exportar formattable--------------------------------------------------------
@@ -152,7 +148,12 @@ export_formattable <- function(f, file, width = "100%", height = NULL,
           selector = ".formattable_widget",
           delay = delay)
 }
+por.pais <- por.pais[order(por.pais$Eficiencia,decreasing = TRUE),]
 
+tb <- formattable(por.pais,align =c("c","c","c","c"),
+                  list(
+                    'Equipo' = formatter("span", style = ~ style(color = "grey",font.weight = "bold")), 
+                    'Eficiencia'= color_tile(customRed, customGreen)))
 export_formattable(tb,"table.png")
 
 #Maldicion de tirar primero-------------------------------------------------
