@@ -11,6 +11,7 @@ library(extrafont)
 library(ggdark)
 library(ggimage)
 library(here)
+library(ggrepel)
 
 loadfonts(device = "win")
 # SETUP de TEMPORADA COMPLETA
@@ -111,11 +112,14 @@ season <- merge(season,crests,by="Team")
 
 
 haepl <-
-  ggplot(season, aes(x = ppg_home, y = ppg_away)) + 
+  ggplot(season, aes(x = ppg_home, y = ppg_away,label = position)) + 
   geom_point(size = 3) +
   geom_hline(yintercept = mean(season$ppg_away), color = "#adadad", linetype = "dashed", alpha=0.5) +
   geom_vline(xintercept =  mean(season$ppg_home), color = "#adadad", linetype = "dashed", alpha=0.5) +
   geom_image(aes(image = season$url),asp=16/9)+
+  geom_text_repel(data = subset(season,(position == "Champions" | position == "Europa")),
+                  box.padding = unit(0.75, "lines"),
+                  size = 4,colour = 'white',family="Trebuchet MS")+
   scale_colour_manual(breaks=c("Champions", "Europa","Middle", "Relegation"),
                       labels=c("Champions League", "Europa League","Middle", "Relegated"),
                       values=c("#6aff00", "#00ddff","#ffa200", "#ff0b03")) +
